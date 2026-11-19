@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark light">
+<title>Warm Media — أخبارك دايمًا دافية</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@400;500;600;700;800&family=Almarai:wght@400;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <div class="logo">
+    <div class="brand" aria-label="Warm Media"><b><span class="wm"><svg class="wlogo" viewBox="0 -6 120 98" aria-hidden="true"><defs><linearGradient id="gw" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#cfd3dc"/></linearGradient><linearGradient id="gr" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ff4a55"/><stop offset="1" stop-color="#b80f1b"/></linearGradient><radialGradient id="gg" cx=".4" cy=".35"><stop offset="0" stop-color="#3a6fb8"/><stop offset="1" stop-color="#0a1226"/></radialGradient></defs><path d="M10 10 L32 74 L60 26" fill="none" stroke="url(#gw)" stroke-width="15" stroke-linejoin="bevel"/><path d="M60 26 L88 74 L110 10" fill="none" stroke="url(#gr)" stroke-width="15" stroke-linejoin="bevel"/><path d="M2 60 C34 6 92 -10 118 14 C92 0 40 14 2 60Z" fill="#d6101e"/><circle cx="60" cy="76" r="12" fill="url(#gg)" stroke="#c9ced9" stroke-width="1.2"/><ellipse cx="60" cy="76" rx="5" ry="12" fill="none" stroke="#8fa4c8" stroke-width=".8"/><path d="M48 76H72M50 70H70M50 82H70" stroke="#8fa4c8" stroke-width=".8" fill="none"/></svg><span class="nm"><span>arm Media</span><small>YOUR NEWS. ALWAYS WARM.</small></span></span>
+      <!-- علامة التوثيق: مخفية افتراضيًا، بتظهر بس لما isVerified() ترجع true -->
+      <svg id="vbadge" class="vbadge" viewBox="0 0 24 24" aria-label="حساب موثّق"><path fill="#1d8cff" d="M12 1l2.6 1.9 3.2-.1 1 3 2.6 1.9-1 3.1 1 3.1-2.6 1.9-1 3-3.2-.1L12 23l-2.6-1.9-3.2.1-1-3L2.6 16.3l1-3.1-1-3.1 2.6-1.9 1-3 3.2.1z"/><path fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="M7.5 12.3l3 3 6-6.3"/></svg>
+    </b></div>
+    
+  </div>
+  <div class="tools">
+    <button class="mobile-menu" id="openMenu" type="button" aria-label="فتح القائمة">☰ القائمة</button>
+    <div class="site-actions"><button class="theme-toggle" id="themeToggle" type="button" aria-label="تغيير المظهر">◐ المظهر</button></div>
+    <div class="it">📅 <span id="d">السبت، 15 نوفمبر 2025</span></div>
+    <div class="it">🕒 <span id="t">10:45 م</span></div>
+    <label class="search">🔍 <input placeholder="ابحث عن خبر…"></label>
+    <div class="soc"><a href="#">YT</a><a href="#">TT</a><a href="#">X</a><a href="#">f</a><a href="#">TG</a></div>
+  </div>
+</div></header>
+
+<nav><div class="wrap">
+  <a class="home" href="#">🏠 الرئيسية</a><a href="#">أخبار محلية ⌄</a><a href="#">أخبار عالمية ⌄</a><a href="#">إعلام وفن ⌄</a><a href="#">رياضة ⌄</a><a href="#">تكنولوجيا ⌄</a><a href="#">منوعات ⌄</a><a href="#">اقتصاد ⌄</a><a href="#">مقالات</a>
+  <a class="brk" href="#">⚡ الأخبار العاجلة</a>
+</div></nav>
+
+<main class="wrap">
+  <div class="ad-slot" id="adSlot" aria-live="polite"><span id="adText">مساحة إعلانية</span><a id="adLink" href="#" target="_blank" rel="noopener">اعرف المزيد</a><button id="closeAd" type="button" aria-label="إغلاق الإعلان">×</button></div>
+  <section class="hero">
+    <div class="slide">
+      <span class="tag">⚡ عاجل</span>
+      <h2 data-slot="hero-title"></h2>
+      <p data-slot="hero-text"></p>
+      <a class="more" href="#">← اقرأ المزيد</a>
+      <div class="ctrl"><div class="dots"><i class="a"></i><i></i><i></i><i></i></div><button aria-label="السابق">›</button><button aria-label="التالي">‹</button></div>
+    </div>
+    <div class="side">
+      <a class="mini" href="#"><div class="th g1"></div><div class="tx"><h4 data-slot="title"></h4><div class="meta"><span class="pill" data-slot="cat"></span><span data-slot="time"></span></div></div></a>
+      <a class="mini" href="#"><div class="th g2"></div><div class="tx"><h4 data-slot="title"></h4><div class="meta"><span class="pill" data-slot="cat"></span><span data-slot="time"></span></div></div></a>
+      <a class="mini" href="#"><div class="th g3"></div><div class="tx"><h4 data-slot="title"></h4><div class="meta"><span class="pill" data-slot="cat"></span><span data-slot="time"></span></div></div></a>
+    </div>
+  </section>
+
+  <section class="cats">
+    <a class="cat" href="#"><b>▤</b>مقالات</a><a class="cat" href="#"><b>★</b>منوعات</a><a class="cat" href="#"><b>◉</b>مجلية</a><a class="cat" href="#"><b>🌐</b>عالمية</a><a class="cat" href="#"><b>▥</b>اقتصاد</a><a class="cat" href="#"><b>▣</b>تكنولوجيا</a><a class="cat" href="#"><b>⚽</b>رياضة</a><a class="cat" href="#"><b>🎬</b>فن وإعلام</a>
+  </section>
+
+  <section aria-labelledby="latestHeading">
+    <h2 id="latestHeading" style="margin:22px 0 10px">أحدث الأخبار</h2>
+    <div id="newsFeed" class="news-feed" aria-live="polite"><div class="status">سيتم تحميل الأخبار من Supabase بعد ضبط بيانات الاتصال.</div></div>
+  </section>
+  <section class="bot">
+    <div class="box"><h3>مقالات مميزة <s>عرض الكل ←</s></h3>
+      <div class="row"><div class="th g4"></div><div class="tx"><h4 data-slot="title"></h4><div class="meta"><span data-slot="author"></span></div></div></div>
+    </div>
+    <div class="box"><h3>أحدث الأخبار <s>♡</s></h3>
+      <div class="row"><div class="th g5"></div><div class="tx"><h4 data-slot="title"></h4><div class="meta"><span data-slot="time"></span></div></div></div>
+    </div>
+    <div class="box promo"><h3>Warm Media</h3><p>أكثر من مجرد أخبار…</p><a href="#">← تابعنا الآن</a></div>
+  </section>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="app.js" defer></script>
+<div class="mobile-overlay" id="mobileOverlay"></div>
+<aside class="mobile-drawer" id="mobileDrawer" aria-label="قائمة الموقع">
+  <button class="close-menu" id="closeMenu" type="button">✕ إغلاق</button>
+  <nav><a href="#">🏠 الرئيسية</a><a href="#">أخبار محلية</a><a href="#">أخبار عالمية</a><a href="#">إعلام وفن</a><a href="#">رياضة</a><a href="#">تكنولوجيا</a><a href="#">منوعات</a><a href="#">اقتصاد</a><a href="#">مقالات</a></nav>
+</aside>
+<div class="auth-panel" id="authPanel" role="dialog" aria-modal="true" aria-label="تسجيل الدخول">
+  <div class="auth-card"><h2>حساب Warm Media</h2><p class="status" id="authStatus">سجّل الدخول أو أنشئ حسابًا.</p>
+  <input id="authEmail" type="email" autocomplete="email" placeholder="البريد الإلكتروني">
+  <input id="authPassword" type="password" autocomplete="current-password" placeholder="كلمة المرور">
+  <button id="signIn" type="button">تسجيل الدخول</button><button id="signUp" type="button">إنشاء حساب</button><button id="closeAuth" type="button">إغلاق</button></div>
+</div>
+<div class="theme-wipe" id="themeWipe"></div>
+</body>
+</html>
